@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Slide from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal';
+import MainPage from './pages/MainPage';
+import Ment from './pages/Ment';
+import CalendarBox from './pages/Calendar';
+import Gallery from './pages/Gallery';
+import Location from './pages/Location';
+import Account from './pages/Account';
+import { ThemeProvider } from 'styled-components';
+import { fontSetting } from './common/fontSetting';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={fontSetting}>
+        <div className="page">
+        <MainPage/>
+        <Ment/>
+        <CalendarBox/> 
+        <Gallery/>
+        <Location/>
+        <Account/>
+        </div>
+    </ThemeProvider>
+
   );
 }
 

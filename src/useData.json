@@ -1,0 +1,36 @@
+{
+    "babyPhoto": "/assets/jyphoto.png",
+    "babyFullName": "김지영",
+    "babyFirstName": "지영",
+    "fatherName": "김민수",
+    "motherName": "최지은",
+    "fatherPhone": "010-1234-5678",
+    "motherPhone": "010-3345-1111",
+    "fatherBank": "신협 03434-566-322",
+    "motherBank": "농협 04550-500-9482",
+    "firstGreeting": {
+      "firstMent_1": "사랑스런 지영이의 첫 생일에",
+      "firstMent_2": "소중한 분들을 초대합니다."
+    },
+    "eventDetails": {
+      "location": "서울 더파티 3층 다래룸",
+      "plan": "2024년 05월 06일 (토) 오후 7시",
+      "day": "2024-05-06",
+      "naverMap": "navermap info",
+      "howToSubway": "3호선 양재역 4번 출구(도보 3분 소요)",
+      "howToBus": "서초문화회관: 140, 471, 서초11",
+      "contact": "서울 더 파티(T:02-1134-4343)",
+      "shareUrl": "http://192.168.0.5:3000/"
+    },
+    "spot": {
+      "pickerX":"33.450701",
+      "pickerY":"126.570667",
+      "naverX":"37.4845106",
+      "naverY":"127.3828802",
+      "tmapX":37.56676565275558,
+      "tmapY":126.97873433862874
+    },
+    
+    "greetingsMessage": "오늘은 우리 지영이의 돌잔치에 여러분을 초대합니다! /소중한 순간을 함께해 주셔서 진심으로 감사드립니다. /이 특별한 날을 함께 만들어 주셔서 정말 고맙습니다. /함께하는 모든 순간을 소중히 간직하겠습니다. /여러분의 따뜻한 축하와 응원에 감사드립니다."
+  }
+  
