@@ -27,7 +27,7 @@ const Account = () => {
     const [faState, setFaState] = useState(false);
     const [urlState, setUrlState] = useState(false);
 
-      const realUrl = 'http://localhost:3000/'
+      const realUrl = 'http://dol-fev.vercel.app'
       const resultUrl = window.location.href;
 
       useEffect(()=>{
